@@ -38,7 +38,7 @@
   Never put a service_role key in this file.
 */
 const SUPABASE_URL = "https://dueysmzmtpmfqsxjmzhk.supabase.co";
-const SUPABASE_ANON_KEY = "PASTE_YOUR_SUPABASE_PUBLIC_ANON_OR_PUBLISHABLE_KEY_HERE";
+const SUPABASE_ANON_KEY = "sb_publishable_QmZZ7G5Pm5OCSnz9i0lygw_IeOG9ojA";
 const supabaseReady = Boolean(window.supabase && SUPABASE_URL.startsWith("https://") && SUPABASE_ANON_KEY !== "PASTE_YOUR_SUPABASE_PUBLIC_ANON_OR_PUBLISHABLE_KEY_HERE" && SUPABASE_ANON_KEY.length > 20);
 const client = supabaseReady ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 const loginSection=document.getElementById("loginSection"), dashboard=document.getElementById("dashboard");
